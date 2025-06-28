@@ -1,0 +1,22 @@
+import { std } from "wow/wotlk";
+
+std.Spells.create('default', 'boost')
+    .Name.enGB.set('Character Boost')
+    .Icon.setPath('spell_holy_holyguidance')
+    .Description.enGB.set('With this Guide, you will unlock your Potential and become level 60 in an instance!')
+    .Effects.addGet()
+    .Type.DUMMY.set()
+    .ImplicitTargetA.UNIT_CASTER.set()
+
+std.Items.create('default', 'CharacterBoost')
+    .Name.enGB.set("Medivh's Guide to Quick Power")
+    .Description.enGB.set("UNEQUIP ALL ITEMS BEFORE USE!")
+    .Class.CONSUMABLE.set()
+    .Quality.HEIRLOOM.set()
+    .RequiredLevel.set(1)
+    .MaxStack.set(1)
+    .DisplayInfo.setSimpleIcon('default', 'BoostTome', 'inv_misc_book_07')
+    .Spells.addGet()
+    .Spell.set(80910)
+    .Trigger.ON_USE.set()
+    .Charges.Raw.set(-1)

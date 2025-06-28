@@ -1,0 +1,33 @@
+{
+	"fileDataID": 4505379,
+	"textures": [
+		{
+			"fileDataID": 4506485,
+			"file": "plate_scarletcrusade_c_01_belt_4506485.blp"
+		},
+		{
+			"fileDataID": 983208,
+			"file": "..\\waist\\armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 4506457,
+			"file": "plate_scarletcrusade_c_01_belt00.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 4506461,
+			"file": "plate_scarletcrusade_c_01_belt_lod01.skin"
+		},
+		{
+			"fileDataID": 4506464,
+			"file": "plate_scarletcrusade_c_01_belt_lod02.skin"
+		},
+		{
+			"fileDataID": 4506466,
+			"file": "plate_scarletcrusade_c_01_belt_lod03.skin"
+		}
+	]
+}

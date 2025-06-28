@@ -1,0 +1,33 @@
+{
+	"fileDataID": 4505378,
+	"textures": [
+		{
+			"fileDataID": 4506480,
+			"file": "plate_scarletcrusade_c_01_shoulder_l_4506480.blp"
+		},
+		{
+			"fileDataID": 983198,
+			"file": "..\\shoulder\\armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 4506447,
+			"file": "plate_scarletcrusade_c_01_shoulder_r00.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 4506448,
+			"file": "plate_scarletcrusade_c_01_shoulder_r_lod01.skin"
+		},
+		{
+			"fileDataID": 4506449,
+			"file": "plate_scarletcrusade_c_01_shoulder_r_lod02.skin"
+		},
+		{
+			"fileDataID": 4506450,
+			"file": "plate_scarletcrusade_c_01_shoulder_r_lod03.skin"
+		}
+	]
+}

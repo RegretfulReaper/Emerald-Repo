@@ -1,0 +1,33 @@
+{
+	"fileDataID": 4505368,
+	"textures": [
+		{
+			"fileDataID": 4506476,
+			"file": "plate_scarletcrusade_c_01_helm_be_m_4506476.blp"
+		},
+		{
+			"fileDataID": 948080,
+			"file": "..\\head\\armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 4506393,
+			"file": "plate_scarletcrusade_c_01_helm_tr_f00.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 4506394,
+			"file": "plate_scarletcrusade_c_01_helm_tr_f_lod01.skin"
+		},
+		{
+			"fileDataID": 4506395,
+			"file": "plate_scarletcrusade_c_01_helm_tr_f_lod02.skin"
+		},
+		{
+			"fileDataID": 4506396,
+			"file": "plate_scarletcrusade_c_01_helm_tr_f_lod03.skin"
+		}
+	]
+}

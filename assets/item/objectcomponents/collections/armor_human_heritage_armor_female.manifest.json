@@ -1,0 +1,33 @@
+{
+	"fileDataID": 4893018,
+	"textures": [
+		{
+			"fileDataID": 4893154,
+			"file": "armor_human_heritage_armor_female_4893154.blp"
+		},
+		{
+			"fileDataID": 1360817,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 4893051,
+			"file": "armor_human_heritage_armor_female00.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 4893052,
+			"file": "armor_human_heritage_armor_female_lod01.skin"
+		},
+		{
+			"fileDataID": 4893053,
+			"file": "armor_human_heritage_armor_female_lod02.skin"
+		},
+		{
+			"fileDataID": 4893054,
+			"file": "armor_human_heritage_armor_female_lod03.skin"
+		}
+	]
+}

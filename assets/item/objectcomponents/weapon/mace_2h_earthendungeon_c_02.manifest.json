@@ -1,0 +1,33 @@
+{
+	"fileDataID": 5242029,
+	"textures": [
+		{
+			"fileDataID": 5367184,
+			"file": "mace_2h_earthendungeon_c_02_5367184.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 5367162,
+			"file": "mace_2h_earthendungeon_c_0200.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 5367163,
+			"file": "mace_2h_earthendungeon_c_02_lod01.skin"
+		},
+		{
+			"fileDataID": 5367164,
+			"file": "mace_2h_earthendungeon_c_02_lod02.skin"
+		},
+		{
+			"fileDataID": 5367165,
+			"file": "mace_2h_earthendungeon_c_02_lod03.skin"
+		}
+	]
+}
