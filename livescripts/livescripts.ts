@@ -263,3 +263,7 @@ export function Main(events: TSEvents) {
         char.ToPlayer()?.SetLevel(58)
     })
 }
+
+export function QuestScript(events: TSEvents) {
+
+}

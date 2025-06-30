@@ -1,0 +1,40 @@
+{
+	"fileDataID": 1112942,
+	"textures": [
+		{
+			"fileDataID": 1112936,
+			"file": "sword_2h_artifactashbringershadow_d_03_purple.blp"
+		},
+		{
+			"fileDataID": 952532,
+			"file": "smoke_wispy_mask_blendadd.blp"
+		},
+		{
+			"fileDataID": 1005189,
+			"file": "arcane_wisps_desat_02.blp"
+		},
+		{
+			"fileDataID": 1035969,
+			"file": "fire_sharp_white_mod2x.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		},
+		{
+			"fileDataID": 988002,
+			"file": "fire_2x2_sharp_mod4x_blurred.blp"
+		},
+		{
+			"fileDataID": 983093,
+			"file": "cloud_puffy_mod.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1112967,
+			"file": "sword_2h_artifactashbringershadow_d_0300.skin"
+		}
+	],
+	"lodSkins": []
+}

@@ -1,0 +1,33 @@
+{
+	"fileDataID": 3607377,
+	"textures": [
+		{
+			"fileDataID": 3607739,
+			"file": "sword_2h_shalamayne_d_03_3607739.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 3607740,
+			"file": "sword_2h_shalamayne_d_0300.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 4080695,
+			"file": "sword_2h_shalamayne_d_03_lod01.skin"
+		},
+		{
+			"fileDataID": 4080696,
+			"file": "sword_2h_shalamayne_d_03_lod02.skin"
+		},
+		{
+			"fileDataID": 4080697,
+			"file": "sword_2h_shalamayne_d_03_lod03.skin"
+		}
+	]
+}

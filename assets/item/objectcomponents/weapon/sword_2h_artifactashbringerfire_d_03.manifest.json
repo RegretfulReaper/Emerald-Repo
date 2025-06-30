@@ -1,0 +1,36 @@
+{
+	"fileDataID": 1112944,
+	"textures": [
+		{
+			"fileDataID": 952534,
+			"file": "draenorcrafted_effects_01.blp"
+		},
+		{
+			"fileDataID": 982469,
+			"file": "fire_bright_mod2x_a_desat.blp"
+		},
+		{
+			"fileDataID": 1326078,
+			"file": "sword_2h_artifactashbringerfire_d_03_yellow.blp"
+		},
+		{
+			"fileDataID": 983092,
+			"file": "fire_2x2_sharp_mod4x_softred_talador.blp"
+		},
+		{
+			"fileDataID": 144333,
+			"file": "armorreflect_hard.blp"
+		},
+		{
+			"fileDataID": 1065414,
+			"file": "smoke_puffy_mask_blendadd.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1112965,
+			"file": "sword_2h_artifactashbringerfire_d_0300.skin"
+		}
+	],
+	"lodSkins": []
+}

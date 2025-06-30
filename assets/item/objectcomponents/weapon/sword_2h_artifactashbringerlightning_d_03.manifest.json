@@ -1,0 +1,36 @@
+{
+	"fileDataID": 1117094,
+	"textures": [
+		{
+			"fileDataID": 1117098,
+			"file": "sword_2h_artifactashbringerlightning_d_03yellow.blp"
+		},
+		{
+			"fileDataID": 144333,
+			"file": "armorreflect_hard.blp"
+		},
+		{
+			"fileDataID": 1117563,
+			"file": "lightning_tile_horiz_1_desat.blp"
+		},
+		{
+			"fileDataID": 1117564,
+			"file": "lightningundertile_bw.blp"
+		},
+		{
+			"fileDataID": 983214,
+			"file": "lightningburst_quadbw.blp"
+		},
+		{
+			"fileDataID": 1042690,
+			"file": "glowball.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1117565,
+			"file": "sword_2h_artifactashbringerlightning_d_0300.skin"
+		}
+	],
+	"lodSkins": []
+}

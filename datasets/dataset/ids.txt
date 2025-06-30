@@ -1,3 +1,5 @@
+Achievement|mod:ebon-dawn|4900|4900|
+CharTitlesMask|mod:ebon-dawn|143|143|
 CurrencyTypes|default:Soul-Coin|400|400|
 CurrencyTypesBitIndex|default:Soul-Coin|30|30|
 ItemDisplayInfo|Default:1h_sword|70000|70000|
@@ -7,8 +9,13 @@ ItemDisplayInfo|default:Calahad|70003|70003|
 ItemDisplayInfo|default:id_display|70005|70005|
 ItemDisplayInfo|default:mace-retroport|70002|70002|
 ItemDisplayInfo|default:xp-pot-item|70006|70006|
+ItemDisplayInfo|mod:0Shalamayne-death|70013|70013|
+ItemDisplayInfo|mod:Shalamayne-death|70012|70012|
+ItemDisplayInfo|mod:ebon-blade|70009|70009|
 ItemDisplayInfo|mod:id_display|70001|70001|
 ItemDisplayInfo|mod:master-totem|70007|70007|
+ItemDisplayInfo|mod:nerub-red|70011|70011|
+ItemDisplayInfo|mod:shattered-legacy|70010|70010|
 ItemSet|default:Arcanist-Heirloom|1003|1003|
 ItemSet|default:Blemished-Penance-Set|1001|1001|
 ItemSet|default:Charged-TenStorms-Set|1007|1007|
@@ -182,4 +189,10 @@ item_template|default:heirloom-might-wrist|60005|60005|
 item_template|default:mighty-lockbox|60011|60011|
 item_template|default:mythic-item|60047|60047|
 item_template|default:xp-pot-item|60069|60069|
+item_template|mod:ebon-blade-demo|60106|60106|
+item_template|mod:nerub-red-demo|60108|60108|
+item_template|mod:shalamayne-death-demo|60109|60109|
+item_template|mod:shattered-legacy-demo|60107|60107|
 quest_template|default:Earth Totem|26100|26100|
+quest_template|mod:ashbringer|26101|26101|
+quest_template|mod:ashbringer2|26102|26102|
