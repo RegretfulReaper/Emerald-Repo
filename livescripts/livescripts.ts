@@ -1,29 +1,10 @@
-//export function Main(events: TSEvents) {
-//    events.Spell.OnCast((spell) => {
-//        if (spell.GetEntry() == 80910) {
-//            spell.GetCaster().ToPlayer()?.SetLevel(60)
-//            spell.GetCaster().ToPlayer()?.AddItem(60043, 1)
-//            spell.GetCaster().ToPlayer()?.AdvanceSkillsToMax()
-//            spell.GetCaster().ToPlayer()?.AddItem(38082, 4)
-//            spell.GetCaster().ToPlayer()?.LearnClassSpells(true, true, true)
-//            spell.GetCaster().ToPlayer()?.LearnSpell(34090)
-//            spell.GetCaster().ToPlayer()?.TryAddMoney(2500000)
-//        }
-//    })
-//}
-
-
 export function Main(events: TSEvents) {
     events.Spell.OnCast((spell) => {
         if (spell.GetEntry() == 80910) {
             const player = ToPlayer(spell.GetCaster());
             if (!player) return;
 
-            //if (player.GetGMRank() == 3) {
-            //    player.Teleport(1, 16226.200195, 16257.000000, 13.202200, 1.650070)
-            //}
-
-            // Optional: Items weiterhin klassenspezifisch vergeben
+            
             if (player.GetClass() == 1) {
                 player.SetLevel(60);
                 player.LearnClassSpells(true, true, true);
@@ -253,43 +234,35 @@ export function Main(events: TSEvents) {
             }
 
         }
-        if (spell.GetEntry() == 80905) {
-            const player = ToPlayer(spell.GetCaster());
-            if (!player) return;
+        events.Instance.OnPlayerEnter((instance, player) => {
 
-        }
-    })
-    events.Player.OnCreate((Character) => {
-        if (Character.GetClass() == 1)
-            Character.SetLevel(60)
-    })
-    events.Instance.OnPlayerEnter((instance, player) => {
+            let groupSize = (player.GetLevel());
 
-        let groupSize = (player.GetLevel());
+            const group = player.GetGroup();
+            if (group) {
+                groupSize = group.GetMembersCount();
+            }
 
-        const group = player.GetGroup();
-        if (group) {
-            groupSize = group.GetMembersCount();
-        }
+            const creatures = instance.GetCreatures();
 
-        const creatures = instance.GetCreatures();
+            const mobTargetLevel = player.GetLevel();
+            const mobTargetHealth = player.GetMaxHealth();
 
-        creatures.forEach((creature) => {
-                if (creature.GetLevel() < player.GetLevel()) {
-                    creature.SetLevel(creature.GetLevel());
-                    creature.SetMaxHealth(creature.GetMaxHealth());
-                };
-                if (creature.GetLevel() > player.GetLevel()) {
-                    creature.SetLevel(player.GetLevel());
-                    creature.SetMaxHealth(player.GetHealth() * 0.6)
-                    creature.SetArmor(player.GetArmor() * 0.6)
-                };
-                if (creature.GetLevel() > 1) {
-                    creature.SetLevel(player.GetLevel())
-                    creature.SetMaxHealth(player.GetHealth() * 0.6)
-                    creature.SetArmor(player.GetArmor() * 0.6)
-                };
-            });
+            for (let i = 0; i < 2; i++) {
+
+                creatures.forEach((creature) => {
+
+                    if (creature.GetLevel() > mobTargetLevel) {
+                        creature.SetLevel(mobTargetLevel);
+                        creature.SetMaxHealth(mobTargetHealth * 0.5);
+                        creature.SetArmor(creature.GetArmor() * 0.01);
+                    }
+
+                });
+
+            }
+
+        });
         events.Instance.OnPlayerLeave((instance, player) => {
             const creatures = instance.GetCreatures();
 
@@ -297,14 +270,6 @@ export function Main(events: TSEvents) {
 
                 creature.SetLevel(creature.GetLevel());
                 creature.SetMaxHealth(creature.GetHealth())
-            });
-        });
-        events.Instance.OnPlayerEnter((display) => {
-            const creatures = display.GetCreatures()
-            creatures.forEach((creature) => {
-                if (creature.GetDisplayID() == 31011) {
-                    creature.SetMainhand(70011)
-                };
             });
         });
         events.Player.OnLevelChanged((player) => {
