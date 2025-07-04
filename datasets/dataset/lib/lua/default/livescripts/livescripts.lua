@@ -1,4 +1,5 @@
---[[ Generated with https://github.com/TypeScriptToLua/TypeScriptToLua ]]
+local ____lualib = require("lualib_bundle")
+local __TS__ArrayForEach = ____lualib.__TS__ArrayForEach
 local ____exports = {}
 function ____exports.Main(events)
     events.Spell:OnCast(function(spell)
@@ -234,11 +235,69 @@ function ____exports.Main(events)
             end
         end
     end)
-    events.Player:OnCreate(function(char)
-        local ____char_ToPlayer_result_SetLevel_result_0 = char:ToPlayer()
-        if ____char_ToPlayer_result_SetLevel_result_0 ~= nil then
-            ____char_ToPlayer_result_SetLevel_result_0 = ____char_ToPlayer_result_SetLevel_result_0:SetLevel(58)
+    events.Player:OnCreate(function(Character)
+        if Character:GetClass() == 1 then
+            Character:SetLevel(60)
         end
+    end)
+    events.Instance:OnPlayerEnter(function(instance, player)
+        local groupSize = player:GetLevel()
+        local group = player:GetGroup()
+        if group then
+            groupSize = group:GetMembersCount()
+        end
+        local creatures = instance:GetCreatures()
+        __TS__ArrayForEach(
+            creatures,
+            function(____, creature)
+                if creature:GetLevel() < player:GetLevel() then
+                    creature:SetLevel(creature:GetLevel())
+                    creature:SetMaxHealth(creature:GetMaxHealth())
+                end
+                if creature:GetLevel() > player:GetLevel() then
+                    creature:SetLevel(player:GetLevel())
+                    creature:SetMaxHealth(player:GetHealth() * 0.6)
+                    creature:SetArmor(player:GetArmor() * 0.6)
+                end
+                if creature:GetLevel() > 1 then
+                    creature:SetLevel(player:GetLevel())
+                    creature:SetMaxHealth(player:GetHealth() * 0.6)
+                    creature:SetArmor(player:GetArmor() * 0.6)
+                end
+            end
+        )
+        events.Instance:OnPlayerLeave(function(instance, player)
+            local creatures = instance:GetCreatures()
+            __TS__ArrayForEach(
+                creatures,
+                function(____, creature)
+                    creature:SetLevel(creature:GetLevel())
+                    creature:SetMaxHealth(creature:GetHealth())
+                end
+            )
+        end)
+        events.Instance:OnPlayerEnter(function(display)
+            local creatures = display:GetCreatures()
+            __TS__ArrayForEach(
+                creatures,
+                function(____, creature)
+                    if creature:GetDisplayID() == 31011 then
+                        creature:SetMainhand(70011)
+                    end
+                end
+            )
+        end)
+        events.Player:OnLevelChanged(function(player)
+            local previous = player:GetLevel()
+            if previous + 1 then
+                player:LearnClassSpells(true, false, false)
+            end
+        end)
+        events.Player:OnLevelChanged(function(Player)
+            if Player:GetLevel() == 80 then
+                Player:AddItem(60043, 1)
+            end
+        end)
     end)
 end
 return ____exports

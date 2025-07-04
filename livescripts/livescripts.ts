@@ -259,11 +259,61 @@ export function Main(events: TSEvents) {
 
         }
     })
-    events.Player.OnCreate((char) => {
-        char.ToPlayer()?.SetLevel(58)
+    events.Player.OnCreate((Character) => {
+        if (Character.GetClass() == 1)
+            Character.SetLevel(60)
     })
-}
+    events.Instance.OnPlayerEnter((instance, player) => {
 
-export function QuestScript(events: TSEvents) {
+        let groupSize = (player.GetLevel());
 
+        const group = player.GetGroup();
+        if (group) {
+            groupSize = group.GetMembersCount();
+        }
+
+        const creatures = instance.GetCreatures();
+
+        creatures.forEach((creature) => {
+                if (creature.GetLevel() < player.GetLevel()) {
+                    creature.SetLevel(creature.GetLevel());
+                    creature.SetMaxHealth(creature.GetMaxHealth());
+                };
+                if (creature.GetLevel() > player.GetLevel()) {
+                    creature.SetLevel(player.GetLevel());
+                    creature.SetMaxHealth(player.GetHealth() * 0.6)
+                    creature.SetArmor(player.GetArmor() * 0.6)
+                };
+                if (creature.GetLevel() > 1) {
+                    creature.SetLevel(player.GetLevel())
+                    creature.SetMaxHealth(player.GetHealth() * 0.6)
+                    creature.SetArmor(player.GetArmor() * 0.6)
+                };
+            });
+        events.Instance.OnPlayerLeave((instance, player) => {
+            const creatures = instance.GetCreatures();
+
+            creatures.forEach((creature) => {
+
+                creature.SetLevel(creature.GetLevel());
+                creature.SetMaxHealth(creature.GetHealth())
+            });
+        });
+        events.Instance.OnPlayerEnter((display) => {
+            const creatures = display.GetCreatures()
+            creatures.forEach((creature) => {
+                if (creature.GetDisplayID() == 31011) {
+                    creature.SetMainhand(70011)
+                };
+            });
+        });
+        events.Player.OnLevelChanged((player) => {
+
+            let previous = player.GetLevel()
+
+            if (previous + 1) {
+                player.LearnClassSpells(true, false, false)
+            }
+        });
+    });
 }

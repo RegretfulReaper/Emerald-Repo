@@ -1,0 +1,37 @@
+{
+	"fileDataID": 5241998,
+	"textures": [
+		{
+			"fileDataID": 5246521,
+			"file": "sword_1h_nerubianraid_d_01_5246521.blp"
+		},
+		{
+			"fileDataID": 5319048,
+			"file": "glaive_1h_nerubianraid_d_01_5319048.blp"
+		},
+		{
+			"fileDataID": 5246496,
+			"file": "glaive_1h_nerubianraid_d_01_5246496.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 5246497,
+			"file": "sword_1h_nerubianraid_d_0100.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 5246498,
+			"file": "sword_1h_nerubianraid_d_01_lod01.skin"
+		},
+		{
+			"fileDataID": 5246499,
+			"file": "sword_1h_nerubianraid_d_01_lod02.skin"
+		},
+		{
+			"fileDataID": 5246500,
+			"file": "sword_1h_nerubianraid_d_01_lod03.skin"
+		}
+	]
+}
