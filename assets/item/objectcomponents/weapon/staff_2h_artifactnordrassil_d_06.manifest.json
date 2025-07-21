@@ -1,0 +1,40 @@
+{
+	"fileDataID": 1348392,
+	"textures": [
+		{
+			"fileDataID": 1348470,
+			"file": "staff_2h_artifactnordrassil_d_06_yellow.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		},
+		{
+			"fileDataID": 617221,
+			"file": "axe_1h_pandariatradeskill_c_01spark.blp"
+		},
+		{
+			"fileDataID": 1043305,
+			"file": "genericglow_alpha_128.blp"
+		},
+		{
+			"fileDataID": 983092,
+			"file": "fire_2x2_sharp_mod4x_softred_talador.blp"
+		},
+		{
+			"fileDataID": 960241,
+			"file": "soul_orb.blp"
+		},
+		{
+			"fileDataID": 988003,
+			"file": "t_vfx_aura01.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1348420,
+			"file": "staff_2h_artifactnordrassil_d_0600.skin"
+		}
+	],
+	"lodSkins": []
+}

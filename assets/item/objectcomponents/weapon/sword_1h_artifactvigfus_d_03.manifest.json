@@ -1,0 +1,49 @@
+{
+	"fileDataID": 1278413,
+	"textures": [
+		{
+			"fileDataID": 1278275,
+			"file": "sword_1h_artifactvigfus_d_03_red.blp"
+		},
+		{
+			"fileDataID": 1119039,
+			"file": "caustic_medfreq_half.blp"
+		},
+		{
+			"fileDataID": 1117564,
+			"file": "lightningundertile_bw.blp"
+		},
+		{
+			"fileDataID": 983215,
+			"file": "lightningburst_quadbw_blendadd.blp"
+		},
+		{
+			"fileDataID": 1278452,
+			"file": "lightning_tile_horiz_1_desat_with_alpha.blp"
+		},
+		{
+			"fileDataID": 144337,
+			"file": "armorreflect_rainbow.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1278453,
+			"file": "sword_1h_artifactvigfus_d_0300.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 5166498,
+			"file": "sword_1h_artifactvigfus_d_03_lod01.skin"
+		},
+		{
+			"fileDataID": 5166499,
+			"file": "sword_1h_artifactvigfus_d_03_lod02.skin"
+		},
+		{
+			"fileDataID": 5166501,
+			"file": "sword_1h_artifactvigfus_d_03_lod03.skin"
+		}
+	]
+}

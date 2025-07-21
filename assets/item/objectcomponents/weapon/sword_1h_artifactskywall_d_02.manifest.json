@@ -1,0 +1,32 @@
+{
+	"fileDataID": 1269547,
+	"textures": [
+		{
+			"fileDataID": 1269551,
+			"file": "sword_1h_artifactskywall_d_02_yellow.blp"
+		},
+		{
+			"fileDataID": 775526,
+			"file": "caustic_medfreq.blp"
+		},
+		{
+			"fileDataID": 960242,
+			"file": "drip_gorensaliva.blp"
+		},
+		{
+			"fileDataID": 1269691,
+			"file": "tornado_cloudst.blp"
+		},
+		{
+			"fileDataID": 144333,
+			"file": "armorreflect_hard.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1269692,
+			"file": "sword_1h_artifactskywall_d_0200.skin"
+		}
+	],
+	"lodSkins": []
+}

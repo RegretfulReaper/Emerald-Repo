@@ -1,0 +1,20 @@
+{
+	"fileDataID": 148496,
+	"textures": [
+		{
+			"fileDataID": 148495,
+			"file": "sword_2h_raid_d_04.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 491806,
+			"file": "sword_2h_raid_d_0400.skin"
+		}
+	],
+	"lodSkins": []
+}

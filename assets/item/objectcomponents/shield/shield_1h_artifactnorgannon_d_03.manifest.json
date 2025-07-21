@@ -1,0 +1,20 @@
+{
+	"fileDataID": 1279549,
+	"textures": [
+		{
+			"fileDataID": 1279613,
+			"file": "shield_1h_artifactnorgannon_d_03yellow.blp"
+		},
+		{
+			"fileDataID": 1048226,
+			"file": "armorreflect_hard.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1279690,
+			"file": "shield_1h_artifactnorgannon_d_0300.skin"
+		}
+	],
+	"lodSkins": []
+}

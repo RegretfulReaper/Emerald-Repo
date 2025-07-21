@@ -1,0 +1,20 @@
+{
+	"fileDataID": 1137850,
+	"textures": [
+		{
+			"fileDataID": 1137848,
+			"file": "bow_1h_artifactwindrunner_d_03_purple.blp"
+		},
+		{
+			"fileDataID": 144337,
+			"file": "armorreflect_rainbow.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1137881,
+			"file": "bow_1h_artifactwindrunner_d_0300.skin"
+		}
+	],
+	"lodSkins": []
+}

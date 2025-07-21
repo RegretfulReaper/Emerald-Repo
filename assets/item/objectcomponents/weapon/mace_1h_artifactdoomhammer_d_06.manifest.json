@@ -1,0 +1,28 @@
+{
+	"fileDataID": 1345181,
+	"textures": [
+		{
+			"fileDataID": 983214,
+			"file": "lightningburst_quadbw.blp"
+		},
+		{
+			"fileDataID": 1345196,
+			"file": "mace_1h_artifactdoomhammer_d_06_teal.blp"
+		},
+		{
+			"fileDataID": 1118626,
+			"file": "incense_white.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1345214,
+			"file": "mace_1h_artifactdoomhammer_d_0600.skin"
+		}
+	],
+	"lodSkins": []
+}

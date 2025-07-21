@@ -1,0 +1,28 @@
+{
+	"fileDataID": 1259940,
+	"textures": [
+		{
+			"fileDataID": 1259944,
+			"file": "sword_2h_artifactarathor_d_02_red.blp"
+		},
+		{
+			"fileDataID": 794754,
+			"file": "bloodglass.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1259964,
+			"file": "sword_2h_artifactarathor_d_0200.skin"
+		},
+		{
+			"fileDataID": 1259965,
+			"file": "sword_2h_artifactarathor_d_0201.skin"
+		}
+	],
+	"lodSkins": []
+}

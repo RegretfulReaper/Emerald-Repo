@@ -1,0 +1,24 @@
+{
+	"fileDataID": 1121730,
+	"textures": [
+		{
+			"fileDataID": 1121747,
+			"file": "sword_1h_artifactfelomelorn_d_05red.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		},
+		{
+			"fileDataID": 952532,
+			"file": "smoke_wispy_mask_blendadd.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1121786,
+			"file": "sword_1h_artifactfelomelorn_d_0500.skin"
+		}
+	],
+	"lodSkins": []
+}

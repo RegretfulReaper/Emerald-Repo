@@ -1,0 +1,2 @@
+const MyFrame = CreateFrame("Frame")
+    

@@ -1,0 +1,18 @@
+import { std } from "wow/wotlk";
+
+std.Items.create("mod", "eye-of-kezaan")
+    .Name.enGB.set("Blind Eye of Kezaan")
+    .ItemLevel.set(681)
+    .Quality.PURPLE.set()
+    .DisplayInfo.set(70017)
+    .InventoryType.TRINKET.set()
+    .Stats.addHitRating(1341)
+    .Stats.addStamina(1341)
+    .Stats.addArmorPenetrationRating(1341)
+    .Bonding.BINDS_ON_PICKUP.set()
+    .Flags.set(["HEROIC", "NO_EQUIP_COOLDOWN", "UNIQUE_EQUIPPED", "REFUNDABLE"])
+    .Spells.addGet()
+    .Spell.set(80906)
+    .ProcsPerMinute.set(5)
+    .Trigger.CHANCE_ON_HIT.set()
+    .Cooldown.set(0)

@@ -1,0 +1,20 @@
+{
+	"fileDataID": 1396394,
+	"textures": [
+		{
+			"fileDataID": 1396440,
+			"file": "sword_1h_artifactnorgannon_d_03_yellow.blp"
+		},
+		{
+			"fileDataID": 775194,
+			"file": "armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1396522,
+			"file": "sword_1h_artifactnorgannon_d_0300.skin"
+		}
+	],
+	"lodSkins": []
+}

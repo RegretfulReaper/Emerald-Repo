@@ -1,0 +1,37 @@
+{
+	"fileDataID": 3554786,
+	"textures": [
+		{
+			"fileDataID": 3554742,
+			"file": "collections_plate_mawraid_d_01_3554742.blp"
+		},
+		{
+			"fileDataID": 1993699,
+			"file": "oldglassglossy.blp"
+		},
+		{
+			"fileDataID": 3554754,
+			"file": "collections_plate_mawraid_d_01_3554754.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 3554914,
+			"file": "collections_plate_mawraid_d_01_hu_f00.skin"
+		}
+	],
+	"lodSkins": [
+		{
+			"fileDataID": 3554916,
+			"file": "collections_plate_mawraid_d_01_hu_f_lod01.skin"
+		},
+		{
+			"fileDataID": 3554917,
+			"file": "collections_plate_mawraid_d_01_hu_f_lod02.skin"
+		},
+		{
+			"fileDataID": 3554919,
+			"file": "collections_plate_mawraid_d_01_hu_f_lod03.skin"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"fileDataID": 523710,
+	"textures": [
+		{
+			"fileDataID": 196135,
+			"file": "..\\..\\..\\world\\expansion02\\doodads\\nexus\\nexus_data_curtain.blp"
+		},
+		{
+			"fileDataID": 196136,
+			"file": "..\\..\\..\\world\\expansion02\\doodads\\nexus\\nexus_data_curtain_motion.blp"
+		},
+		{
+			"fileDataID": 165805,
+			"file": "..\\..\\..\\spells\\clouds8x8.blp"
+		},
+		{
+			"fileDataID": 308486,
+			"file": "..\\shield\\shield_icecrownraid_d_04particle.blp"
+		},
+		{
+			"fileDataID": 194764,
+			"file": "..\\..\\..\\world\\expansion02\\doodads\\generic\\bonfire\\t_vfx_fire_anim02_128_full_desat_blue.blp"
+		},
+		{
+			"fileDataID": 167016,
+			"file": "..\\..\\..\\spells\\t_vfx_door_black.blp"
+		},
+		{
+			"fileDataID": 523703,
+			"file": "stave_2h_tarecgosa_e_01swirl.blp"
+		},
+		{
+			"fileDataID": 523709,
+			"file": "stave_2h_tarecgosa_e_01stage3.blp"
+		},
+		{
+			"fileDataID": 249237,
+			"file": "..\\shield\\armorreflect4.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 523711,
+			"file": "stave_2h_tarecgosa_e_01stagefinal00.skin"
+		}
+	],
+	"lodSkins": []
+}

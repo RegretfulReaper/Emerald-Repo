@@ -1,0 +1,24 @@
+{
+	"fileDataID": 1395354,
+	"textures": [
+		{
+			"fileDataID": 1395362,
+			"file": "offhand_1h_artifactdoomhammer_d_06teal.blp"
+		}
+	],
+	"skins": [
+		{
+			"fileDataID": 1395372,
+			"file": "offhand_1h_artifactdoomhammer_d_0600.skin"
+		},
+		{
+			"fileDataID": 1395373,
+			"file": "offhand_1h_artifactdoomhammer_d_0601.skin"
+		},
+		{
+			"fileDataID": 1395374,
+			"file": "offhand_1h_artifactdoomhammer_d_0602.skin"
+		}
+	],
+	"lodSkins": []
+}
