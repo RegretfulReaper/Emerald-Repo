@@ -1,13 +1,16 @@
 import { std } from "wow/wotlk";
 
 std.Classes.load("SHAMAN")
-    .Races.add("DWARF")
+    .Races.add(["DWARF"])
 
 std.Classes.load("DRUID")
-    .Races.add("TROLL")
+    .Races.add(["TROLL"])
+
+std.Classes.load("ROGUE")
+    .Races.add(["TAUREN"])
 
 std.Classes.load("MAGE")
-    .Races.add("TAUREN")
+    .Races.add(["TAUREN", "NIGHTELF"])
 
 std.Classes.load("HUNTER")
     .Races.add(["UNDEAD", "HUMAN"])
