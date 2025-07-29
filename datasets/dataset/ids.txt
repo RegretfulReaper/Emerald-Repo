@@ -19,6 +19,8 @@ ItemDisplayInfo|mod:felomelorn|70027|70027|
 ItemDisplayInfo|mod:flamebringer|70023|70023|
 ItemDisplayInfo|mod:id_display|70001|70001|
 ItemDisplayInfo|mod:legi-gem-red|70018|70018|
+ItemDisplayInfo|mod:letter|70033|70033|
+ItemDisplayInfo|mod:letter-nonquest|70034|70034|
 ItemDisplayInfo|mod:loveyoudu-staff|70022|70022|
 ItemDisplayInfo|mod:mace-retroport|70002|70002|
 ItemDisplayInfo|mod:master-totem|70007|70007|
@@ -247,15 +249,22 @@ item_template|mod:heirloom-might-shoulder|60003|60003|
 item_template|mod:heirloom-might-waist|60007|60007|
 item_template|mod:heirloom-might-wrist|60005|60005|
 item_template|mod:impro-seaf-pace|60116|60116|
+item_template|mod:letter-nonquest|60121|60121|
+item_template|mod:letter-quest|60119|60119|
 item_template|mod:loveyoudu-staff|60113|60113|
 item_template|mod:mighty-lockbox|60011|60011|
 item_template|mod:mythic-item|60047|60047|
 item_template|mod:rec-resources|60117|60117|
 item_template|mod:taint-supp|60118|60118|
+item_template|mod:to-my-kin-texts|60120|60120|
 item_template|mod:warrior-legacy-1|60106|60106|
 item_template|mod:warrior-legacy-2|60108|60108|
 item_template|mod:windrunner|60115|60115|
 item_template|mod:xp-pot-item|60069|60069|
+page_text|mod:to-my-kin|4000|4000|
+page_text|mod:to-my-kin2|4001|4001|
+page_text|mod:to-my-kin3|4002|4002|
+page_text|mod:to-my-kin4|4003|4003|
 quest_template|mod:Earth Totem|26100|26100|
 quest_template|mod:a-c-q|26105|26105|
 quest_template|mod:ashbringer|26101|26101|

@@ -44,4 +44,3 @@ std.CreatureTemplates.load(190010)
         {map:1,x:9926.246094,y:2507.399414,z:1318.247925,o:4.834066},
         {map:571,x:5822.285156,y:538.005615,z:651.135315,o:1.888974},
         ])
-// console.log(std.CreatureInstances.load(1907).objectify())
