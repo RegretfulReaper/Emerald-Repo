@@ -1,3 +1,4 @@
+import { compileFunction } from "node:vm";
 import { patch } from "request";
 
 export function Main(events: TSEvents) {
@@ -311,6 +312,20 @@ export function Main(events: TSEvents) {
             player.LearnSpell(80917)
             if (player.GetLevel() == 55) {
                 player.RemoveSpell(80917, true, true)
+            }
+        })
+        events.Player.OnLogin((player, confirm) => {
+            if (player.GetClass() == 12) {
+                player.GetLevel()
+                if (player.GetLevel() == 1) {
+                    player.SetLevel(20)
+                }
+            }
+        })
+        events.Player.OnLogin((player, confirm) => {
+            if (player.GetClass() == 12){
+                player.EquipItem(60138, 5)
+                player.EquipItem(60137, 9)
             }
         })
     });

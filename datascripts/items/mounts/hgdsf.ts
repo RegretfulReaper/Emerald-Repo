@@ -6,7 +6,7 @@ std.Spells.create('mod','kfc-pferd')
     // - Basic Properties -
     //
     // =================================================
-    .Name.set({"enGB":"Swift Red Gryphon"})
+    .Name.set({"enGB":"Azeroth Traversing Machine"})
     .Description.set({"enGB":"Summons and dismisses a flying mount.  This is a very fast mount. This mount can be used wherever you want to use it."})
     .AuraDescription.set({"enGB":"Increases flight speed by $s2%."})
     .Subtext.set({})

@@ -2,6 +2,7 @@ Achievement|mod:ebon-dawn|4900|4900|
 AreaTable|mod:strangled-keep|4988|4988|
 AreaTableExplore|mod:strangled-keep-bit|3618|3618|
 CharTitlesMask|mod:ebon-dawn|143|143|
+ChrClasses|mod:Lich|12|12|
 CurrencyTypes|mod:Soul-Coin|400|400|
 CurrencyTypesBitIndex|mod:Soul-Coin|30|30|
 ItemDisplayInfo|default:id_display|70003|70003|
@@ -49,9 +50,12 @@ ItemSet|mod:Overgrown-Cenarion-Set|1009|1009|
 ItemSet|mod:Prophecy-Heirloom|1005|1005|
 ItemSet|mod:Singed-Dragonstalker-Set|1006|1006|
 ItemSet|mod:Torn-Heirloom-Set|1002|1002|
+SkillLine|mod:skill-lineDomination|790|790|
+SkillLine|mod:skill-lineNecrosis|789|789|
 Spell|mod:Boss-Evasion|80901|80901|
 Spell|mod:Ebon-Dawn|80902|80902|
 Spell|mod:Eye of Kezan|80906|80906|
+Spell|mod:Lich Ghoul|80919|80919|
 Spell|mod:admin-haste|80903|80903|
 Spell|mod:boost|80904|80904|
 Spell|mod:boost-req|80917|80917|
@@ -65,8 +69,11 @@ Spell|mod:helheim|80912|80912|
 Spell|mod:id|80905|80905|
 Spell|mod:kfc-pferd|80914|80914|
 Spell|mod:legacy-rage|80911|80911|
+Spell|mod:lich-bolt|80918|80918|
 Spell|mod:xp-aura|80907|80907|
 Spell|mod:xp-pot|80908|80908|
+TalentTab|mod:talent-tree-Domination|416|416|
+TalentTab|mod:talent-tree-Necrosis|415|415|
 creature|default:Shaman-Trainer-0|220024|220024|
 creature|default:Shaman-Trainer-1|220025|220025|
 creature|mod:Heirloom-Vendor-0|220016|220016|
@@ -139,7 +146,14 @@ creature_template|mod:testing|45005|45005|
 creature_template|mod:wb-main|45003|45003|
 gameobject|mod:id-0|200000|200000|
 gameobject_template|mod:anvilus|250000|250000|
+item_template|mod:Acolyte's Dagger|60127|60127|
+item_template|mod:Acolyte's Gloves|60137|60137|
+item_template|mod:Acolyte's Leggings|60132|60132|
+item_template|mod:Acolyte's Shoes|60131|60131|
+item_template|mod:Acolyte's Shoulderpads|60134|60134|
+item_template|mod:Acolyte's Wand|60129|60129|
 item_template|mod:Aged Coin|60043|60043|
+item_template|mod:Belt of the Acolyte|60138|60138|
 item_template|mod:Blemished-2H-Mace|60020|60020|
 item_template|mod:Blemished-Bishop-Back|60021|60021|
 item_template|mod:Blemished-Lockbox|60022|60022|
@@ -153,6 +167,7 @@ item_template|mod:Blemished-Penance-Wrist|60015|60015|
 item_template|mod:Blemished-Penance-feet|60019|60019|
 item_template|mod:Blessed-Cloak-of-Grace|60066|60066|
 item_template|mod:Bloodied-Ravager|60045|60045|
+item_template|mod:Book of Damnation|60128|60128|
 item_template|mod:Cenarion-Lockbox|60103|60103|
 item_template|mod:CharacterBoost|60105|60105|
 item_template|mod:Charged-TenStorms-Back|60083|60083|
@@ -166,6 +181,8 @@ item_template|mod:Charged-TenStorms-Shield|60091|60091|
 item_template|mod:Charged-TenStorms-Shoulder|60082|60082|
 item_template|mod:Charged-TenStorms-Waist|60087|60087|
 item_template|mod:Charged-TenStorms-Wrist|60085|60085|
+item_template|mod:Cloak of Necessary Evils|60136|60136|
+item_template|mod:Cowl of Lesser Necromancy|60133|60133|
 item_template|mod:Cursed-Cloak-of-Flames|60057|60057|
 item_template|mod:Dragonstalker-Lockbox|60080|60080|
 item_template|mod:Enchanted-Lockbox|60042|60042|
@@ -174,6 +191,7 @@ item_template|mod:Felheart-Lockbox|60056|60056|
 item_template|mod:Heirloom-Might-Back|60010|60010|
 item_template|mod:Master-Totem|60104|60104|
 item_template|mod:Might-Shield|60046|60046|
+item_template|mod:Necromantic Acolyte Robe|60130|60130|
 item_template|mod:Oathseeker|60109|60109|
 item_template|mod:Oathseeker-Shield|60112|60112|
 item_template|mod:Overgrown-Cenarion-Back|60094|60094|
@@ -187,6 +205,11 @@ item_template|mod:Overgrown-Cenarion-Staff|60101|60101|
 item_template|mod:Overgrown-Cenarion-Waist|60098|60098|
 item_template|mod:Overgrown-Cenarion-Wrist|60096|60096|
 item_template|mod:Prophecy-Lockbox|60067|60067|
+item_template|mod:Scribe Leggings|60126|60126|
+item_template|mod:Scribe Robe|60124|60124|
+item_template|mod:Scribe Wandering Slippers|60125|60125|
+item_template|mod:Scribe's Enchanted Pen|60123|60123|
+item_template|mod:Scribe's Mace|60122|60122|
 item_template|mod:Singed-Dragonstalker-Back|60078|60078|
 item_template|mod:Singed-Dragonstalker-Chest|60072|60072|
 item_template|mod:Singed-Dragonstalker-Feet|60077|60077|
@@ -209,6 +232,7 @@ item_template|mod:Torn-Shoulder-Pads|60024|60024|
 item_template|mod:Torn-Waist|60028|60028|
 item_template|mod:Torn-Wrist|60026|60026|
 item_template|mod:Torn-hands|60027|60027|
+item_template|mod:apprentice-soulkeeper|60135|60135|
 item_template|mod:ashbringer-shattered|60107|60107|
 item_template|mod:blessed-light-binder-staff|60068|60068|
 item_template|mod:blessed-prophecy-chest|60060|60060|

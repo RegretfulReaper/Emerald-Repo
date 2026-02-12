@@ -302,6 +302,20 @@ function ____exports.Main(events)
                 player:RemoveSpell(80917, true, true)
             end
         end)
+        events.Player:OnLogin(function(player, confirm)
+            if player:GetClass() == 12 then
+                player:GetLevel()
+                if player:GetLevel() == 1 then
+                    player:SetLevel(20)
+                end
+            end
+        end)
+        events.Player:OnLogin(function(player, confirm)
+            if player:GetClass() == 12 then
+                player:EquipItem(60138, 5)
+                player:EquipItem(60137, 9)
+            end
+        end)
     end)
 end
 return ____exports
