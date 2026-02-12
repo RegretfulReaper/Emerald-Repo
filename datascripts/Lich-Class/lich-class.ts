@@ -7,7 +7,7 @@ export const LICH_CONSTANTS = {
     CLASS_COLOR: 0xb864fc,
     FAMILY_ID: 502,
     GLYPH_SUBFAMILY_ID: 502,
-    CLASS_DESCRIPTION: `Gunther Arcanus, season mage of the Kirin Tor, now the of Necromancy Instructor of the Forsaken, taught you, oh scourge born, how to control the curse, nay the plague of the unNECROSIS. You are, a Lich, lesser than a King, but more than a Forsaken.
+    CLASS_DESCRIPTION: `Gunther Arcanus, season mage of the Kirin Tor, now the of Necromancy Instructor of the Forsaken, taught you, oh scourge born, how to control the curse, nay the plague of the undeath. You are, a Lich, lesser than a King, but more than a Forsaken.
     
     May your Strength never never fail you, and may the Undead, heed your voice like the cold grasp of Northrend's ice in their veins.`,
     
